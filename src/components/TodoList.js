@@ -36,10 +36,7 @@ function TodoList() {
    setTodos(updatedTodos)
     }
 
-    //Save to local storage
-    // useEffect(() => {
-    //    localStorage.setTodos('todos',JSON.stringify(todos))
-    // }, [todos])
+    
    
     return (
         <div>
